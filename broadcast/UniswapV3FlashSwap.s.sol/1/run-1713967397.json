@@ -1,0 +1,38 @@
+{
+  "transactions": [
+    {
+      "hash": null,
+      "transactionType": "CALL",
+      "contractName": "UniswapV3FlashSwap",
+      "contractAddress": "0xc7f2cf4845c6db0e1a1e91ed41bcd0fcc1b0e141",
+      "function": "flashSwap(address,uint24,address,address,uint256)",
+      "arguments": [
+        "0xC2e9F25Be6257c210d7Adf0D4Cd6E3E881ba25f8",
+        "500",
+        "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "10000000000000000000"
+      ],
+      "transaction": {
+        "from": "0x1804c8ab1f12e6bbf3894d4083f33e07309d1f38",
+        "to": "0xc7f2cf4845c6db0e1a1e91ed41bcd0fcc1b0e141",
+        "gas": "0x7981",
+        "value": "0x0",
+        "input": "0x48368ae8000000000000000000000000c2e9f25be6257c210d7adf0d4cd6e3e881ba25f800000000000000000000000000000000000000000000000000000000000001f40000000000000000000000006b175474e89094c44da98b954eedeac495271d0f000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000008ac7230489e80000",
+        "nonce": "0x1",
+        "chainId": "0x1",
+        "accessList": null,
+        "type": null
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1713967397,
+  "chain": 1,
+  "commit": "8382134"
+}
